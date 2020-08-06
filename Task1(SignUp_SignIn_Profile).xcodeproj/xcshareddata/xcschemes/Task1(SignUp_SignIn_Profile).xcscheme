@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   LastUpgradeVersion = "1030"
+   version = "1.3">
+   <BuildAction
+      parallelizeBuildables = "YES"
+      buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "783A0A54246B07C200E86E05"
+               BuildableName = "Task1(SignUp_SignIn_Profile).app"
+               BlueprintName = "Task1(SignUp_SignIn_Profile)"
+               ReferencedContainer = "container:Task1(SignUp_SignIn_Profile).xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "783A0A68246B07C300E86E05"
+               BuildableName = "Task1(SignUp_SignIn_Profile)Tests.xctest"
+               BlueprintName = "Task1(SignUp_SignIn_Profile)Tests"
+               ReferencedContainer = "container:Task1(SignUp_SignIn_Profile).xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "783A0A73246B07C300E86E05"
+               BuildableName = "Task1(SignUp_SignIn_Profile)UITests.xctest"
+               BlueprintName = "Task1(SignUp_SignIn_Profile)UITests"
+               ReferencedContainer = "container:Task1(SignUp_SignIn_Profile).xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "783A0A54246B07C200E86E05"
+            BuildableName = "Task1(SignUp_SignIn_Profile).app"
+            BlueprintName = "Task1(SignUp_SignIn_Profile)"
+            ReferencedContainer = "container:Task1(SignUp_SignIn_Profile).xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </TestAction>
+   <LaunchAction
+      buildConfiguration = "Debug"
+      selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      launchStyle = "0"
+      useCustomWorkingDirectory = "NO"
+      ignoresPersistentStateOnLaunch = "NO"
+      debugDocumentVersioning = "YES"
+      debugServiceExtension = "internal"
+      allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "783A0A54246B07C200E86E05"
+            BuildableName = "Task1(SignUp_SignIn_Profile).app"
+            BlueprintName = "Task1(SignUp_SignIn_Profile)"
+            ReferencedContainer = "container:Task1(SignUp_SignIn_Profile).xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+      <AdditionalOptions>
+      </AdditionalOptions>
+   </LaunchAction>
+   <ProfileAction
+      buildConfiguration = "Release"
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      savedToolIdentifier = ""
+      useCustomWorkingDirectory = "NO"
+      debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "783A0A54246B07C200E86E05"
+            BuildableName = "Task1(SignUp_SignIn_Profile).app"
+            BlueprintName = "Task1(SignUp_SignIn_Profile)"
+            ReferencedContainer = "container:Task1(SignUp_SignIn_Profile).xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction
+      buildConfiguration = "Debug">
+   </AnalyzeAction>
+   <ArchiveAction
+      buildConfiguration = "Release"
+      revealArchiveInOrganizer = "YES">
+   </ArchiveAction>
+</Scheme>

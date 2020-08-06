@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="55" id="KGk-i7-Jjw" customClass="SearchViewCellTableViewCell" customModule="Task1_SignUp_SignIn_Profile_" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="381" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="381" height="64.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Fbe-88-D26">
+                        <rect key="frame" x="5" y="2" width="65" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="PqP-R1-pn5"/>
+                            <constraint firstAttribute="width" constant="65" id="ocE-6h-Xb7"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Xr-JJ-qOb" customClass="MarqueeLabel" customModule="MarqueeLabel">
+                        <rect key="frame" x="78" y="35" width="303" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="animationDelay">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="fadeLength">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="scrollRate">
+                                <real key="value" value="30"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RCV-Eg-XcG" customClass="MarqueeLabel" customModule="MarqueeLabel">
+                        <rect key="frame" x="78" y="11" width="303" height="21"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="animationDelay">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="fadeLength">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="scrollRate">
+                                <real key="value" value="30"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIV-34-jlm">
+                        <rect key="frame" x="5" y="2" width="65" height="60"/>
+                        <connections>
+                            <action selector="imageBounceAnimationButtonTapped:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="wU8-Xt-6G2"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="RCV-Eg-XcG" secondAttribute="trailing" id="3FS-7u-pBM"/>
+                    <constraint firstItem="RCV-Eg-XcG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="Bc9-p1-xnS"/>
+                    <constraint firstItem="OIV-34-jlm" firstAttribute="height" secondItem="Fbe-88-D26" secondAttribute="height" id="DEb-7v-ltg"/>
+                    <constraint firstItem="RCV-Eg-XcG" firstAttribute="leading" secondItem="Fbe-88-D26" secondAttribute="trailing" constant="8" id="F55-jT-YlY"/>
+                    <constraint firstItem="0Xr-JJ-qOb" firstAttribute="top" secondItem="RCV-Eg-XcG" secondAttribute="bottom" constant="3" id="FbS-yS-VrY"/>
+                    <constraint firstAttribute="trailing" secondItem="0Xr-JJ-qOb" secondAttribute="trailing" id="Pwa-EV-nYv"/>
+                    <constraint firstItem="OIV-34-jlm" firstAttribute="centerX" secondItem="Fbe-88-D26" secondAttribute="centerX" id="UWD-Mc-5Up"/>
+                    <constraint firstItem="Fbe-88-D26" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="2" id="Yeh-b3-Gzg"/>
+                    <constraint firstAttribute="trailing" secondItem="RCV-Eg-XcG" secondAttribute="trailing" id="bNI-Ql-Wor"/>
+                    <constraint firstItem="0Xr-JJ-qOb" firstAttribute="leading" secondItem="RCV-Eg-XcG" secondAttribute="leading" id="mC5-HW-hdd"/>
+                    <constraint firstItem="Fbe-88-D26" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="nJP-7l-lsm"/>
+                    <constraint firstItem="OIV-34-jlm" firstAttribute="centerY" secondItem="Fbe-88-D26" secondAttribute="centerY" id="rWp-gk-PLS"/>
+                    <constraint firstItem="OIV-34-jlm" firstAttribute="width" secondItem="Fbe-88-D26" secondAttribute="width" id="tFj-VI-JSE"/>
+                    <constraint firstItem="RCV-Eg-XcG" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="zuR-sS-mVb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="firestMediaLabel" destination="RCV-Eg-XcG" id="n2H-LY-o9E"/>
+                <outlet property="mediaImageViewer" destination="Fbe-88-D26" id="9ub-CW-OLc"/>
+                <outlet property="secondMediaLabel" destination="0Xr-JJ-qOb" id="Uvh-Ua-HKc"/>
+            </connections>
+            <point key="canvasLocation" x="103.62318840579711" y="157.70089285714286"/>
+        </tableViewCell>
+    </objects>
+</document>
